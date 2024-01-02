@@ -1,0 +1,38 @@
+.all-posts {
+	margin-bottom: 3%;
+}
+
+.all-posts ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.all-posts ul li {
+	margin: 1%;
+	font-size: medium;
+}
+
+.all-posts ul li .post {
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	border-radius: 7px;
+	height: 20vh;
+	padding: 1%;
+}
+
+.post .post-content {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: #0092da;
+}
+
+a:visited {
+	color: #0092da;
+}

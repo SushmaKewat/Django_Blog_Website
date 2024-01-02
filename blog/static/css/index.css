@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+/* VARIABLES */
+:root {
+	--BG_COLOR: rgb(233, 233, 233);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-color: var(--BG_COLOR);
+}
+
+.content {
+	backdrop-filter: brightness(80%);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.content a {
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 20px;
+}
+
+.page {
+	margin: 0%;
+	height: 100vh;
+
+	background-color: rgb(120, 120, 120);
+	background-image: url('../media/website/jess-bailey-q10VITrVYUM-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page-title {
+	color: white;
+	font-size: 100px;
+	text-shadow: 2px 2px 5px black;
+}
+
+/* posts */
+.feed-posts {
+	margin: 3%;
+}
+
+.feed-posts a {
+	text-decoration: none;
+	color: black;
+}
+
+.feed-posts .latest-posts {
+	margin-bottom: 3%;
+}
+
+.feed-posts .posts {
+	margin-bottom: 3%;
+}
+
+.feed-posts .posts ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.feed-posts .posts ul li {
+	margin: 1%;
+	width: 40%;
+
+	font-size: medium;
+}
+
+.feed-posts .posts ul li div {
+	border: 2px solid black;
+	/* width: fit-content; */
+	border-radius: 7px;
+	height: 20vh;
+	padding: 3%;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.feed-btn {
+	border: 2px solid white;
+	background-color: transparent;
+	margin: 1%;
+	color: white;
+	padding: 0.5% 2% 0.5% 2%;
+}
+
+.feed-btn :hover {
+	font-size: 22px;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

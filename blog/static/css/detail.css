@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+.share-btn {
+	font-size: large;
+	padding: 0.5% 2% 0.5% 2%;
+	width: 15%;
+	background-color: #00abff;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.share-btn a {
+	color: whitesmoke;
+}
+
+.posts {
+	margin-bottom: 3%;
+}
+
+.posts ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.posts ul li {
+	margin: 1%;
+	width: 40%;
+
+	font-size: medium;
+}
+
+.posts ul li div {
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 7px;
+	height: 20vh;
+	padding: 3%;
+}
